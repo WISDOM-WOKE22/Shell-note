@@ -1,0 +1,12 @@
+li{
+  list-style-type: none;
+}
+.pages{
+  margin-top: 60px;
+}
+@media screen and (min-width:801px){
+    .pages{
+      margin-top: 70px;
+      margin-left: 250px;
+    }
+}

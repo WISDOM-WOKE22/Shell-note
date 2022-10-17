@@ -1,0 +1,38 @@
+.task_collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.task_collection .note{
+    font-size: 15px;
+}
+.task_item{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 650px;
+}
+.dt{
+    display: flex;
+    justify-content: space-between;
+}
+.dt{
+    color: #2b5876;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ch{
+    color: #2b5876;
+    text-align: right;
+}
+.success{
+    color: green;
+    padding: 10px 20px;
+    border: 1px solid lightgreen;
+    border-radius: 15px;
+    background-color: lightgreen;
+    transition: all ease-in-out 1s;
+}

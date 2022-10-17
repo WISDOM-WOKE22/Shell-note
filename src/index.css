@@ -1,0 +1,34 @@
+
+body {
+  margin: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.link{
+  text-decoration: none;
+  color: #fff;
+}
+.error{
+  color: red;
+}
+h2{
+    color: #2b5876;
+}
+.trash{
+  margin-left:10px;
+  cursor: pointer;
+  color: #2b5876;
+  transition: all .1s ease-in-out;
+}
+.trash:hover{
+  color: red;
+}
+.error{
+  color: red;
+}

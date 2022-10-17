@@ -1,0 +1,61 @@
+h2{
+    margin: 0;
+    padding: 0;
+}
+.it{
+    display: flex;
+    justify-content: space-between;
+
+}
+.form-con form{
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 100%;
+}
+.form-con .mt{
+    margin-top: 15px;
+}
+.form-con .mt button{
+    padding: 5px;
+}
+.form-con input{
+  outline: none;
+  border: 1px solid lightgray;
+}
+.form-con input:hover{
+    border-color: #0052FF;
+}
+.text{
+    height: 30px;
+    width: 77%;
+    text-indent: 5px;
+}
+.ds input{
+  width: 97%;
+  outline: none;
+  margin-top: 10px;
+  height: 30px;
+  text-indent: 5px;
+
+}
+.in{
+    margin-top: 0;
+}
+.time{
+    width: 20%;
+    height: 32px;
+    border-left: 1px solid transparent;
+}
+@media screen and (min-width:801px) {
+    .task-P{
+        margin-left: 50px;
+    }
+    .form-con form{
+        margin-left: 230px;
+    }
+}
+@media screen and (max-width: 360px){
+    .text{
+        width: 74%;
+    }
+}

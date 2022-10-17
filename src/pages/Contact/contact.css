@@ -1,0 +1,16 @@
+.addBtn{
+    margin-left: 30px;
+    border: 1px solid #2b5876;
+    width: 130px;
+    text-align: center;
+    padding: 5px 1px;
+    background-color: #2b5876;
+    cursor: pointer;
+    color: #fff;
+}
+.addBtn:hover{
+    color:  #df5227;
+}
+.contactform form label input {
+    font-size: 0.9rem;
+}

@@ -1,0 +1,98 @@
+.login, .signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.login form, .signup form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 0 10px lightgray;
+    padding: 20px;
+    border-top: 5px solid #2b5876;
+    border-radius: 10px;
+}
+h1{
+    color: #2178b3;
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+h2{
+    text-align: center;
+    
+}
+label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+label span{
+    font-size: 1rem;
+    color: rgba(0,0,0,.7);
+}
+label input{
+    height: 30px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 12px;
+    text-indent: 5px;
+    width: 100%;
+}
+label input:hover{
+    border: 1px solid #2b5876;
+}
+form .Btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form .p-btn{
+    margin-top: 20px;
+    width: 80%;
+    font-size: 1rem;
+    padding: 5px 10px;
+    height: 33px;
+    color: #fff;
+    background-color: #2b5876;
+    border: 1px solid #2b5876;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+form .p-btn:hover{
+    background-color: #2178b3;
+}
+.inu{
+    text-align: center;
+    margin-top: 40px;
+}
+@media screen and (max-width: 420px){
+    .login, .signup{
+        margin-top: 0;
+    }
+   .login form, .signup form{
+        border: none;
+        box-shadow: none;
+        margin-top: -30px;
+    }
+    form .p-btn{
+        padding: 0px;
+    }
+}
+.Lbtn{
+    cursor: no-drop;
+}
+.msg{
+    text-align: center;
+}

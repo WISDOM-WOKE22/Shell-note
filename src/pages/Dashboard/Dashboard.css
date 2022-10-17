@@ -1,0 +1,71 @@
+.dashboard{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.dashboard header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.U-name{
+    position: fixed;
+    right: 20px;
+}
+.userName{
+    color:#2b5876;
+}
+
+.db_nav{
+    top: 10px;
+    height: 50px;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 20px;
+    z-index: 300;
+    background-color: #fff;
+    top: 0;
+    position: fixed;
+}
+.m_bar{
+    z-index: 1100;
+    position: fixed;
+    left: 10px;
+}
+.menu-bar{
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 1.4rem;
+    color: black;
+}
+@media screen and (max-width:800px){
+    .sidebar2{
+        display: block;
+    }
+    .sidebar1{
+        display:none;
+    }
+}
+@media screen and (min-width:801px){
+    .menu-bar{
+        display: none;
+    }
+     .sidebar1{
+        display: none;
+     }
+     .sidebar2{
+        display: none;
+     }
+}

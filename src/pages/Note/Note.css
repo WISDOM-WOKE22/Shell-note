@@ -1,0 +1,114 @@
+.Task{
+    padding-top: 40px;
+    height: 90vh;
+}
+.P-form form{
+    width: 100%;
+    max-width: 300px;
+    background-color:#f9f9f9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    z-index: 10;
+    margin: 200px auto;
+}
+#task-title, form textarea{
+    font-size: 1rem;
+    border:none;
+    height: 30px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+#task-title{
+    border-bottom: 1px solid gray;
+}
+form textarea{
+    height: 100px;
+}
+.F-btn{
+    display: flex;
+    justify-content: center;
+}
+.F-btn button{
+    background-color: #2b5876;
+    color: #2b5876;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+.color-changer{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.color-changer span{
+    margin:0 3px ;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+.c-white{
+    background-color: white;
+}
+.c-blue{
+    background-color: skyblue;
+}
+.c-red{
+    background-color: rgb(243, 199, 199);
+}
+.c-green{
+    background-color: rgb(167, 228, 185);
+}
+@media screen and (min-width:801px) {
+    .Task{
+        margin-left: 265px;
+    }
+}
+.Taskbtn{
+    padding: 10px;
+    border-radius:50% ;
+    border: 1px solid gray;
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    background-color: #f1f6fa;
+    color:#2b5876 ;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    /* z-index: 200; */
+}
+.Taskbtn:hover{
+    bottom: 30px;
+}
+@media screen and (max-width:600px) {
+    .collection{
+        position: relative;
+        left: -5px;
+    }
+}
+@media screen and (max-width:500px) {
+    .P-form form{
+        margin: 100px auto;
+    }
+}
+@media screen and (max-width:400px) {
+    .P-form form{
+        max-width: 250px;
+    }
+}
+.cm-text{
+    text-align: center;
+}
